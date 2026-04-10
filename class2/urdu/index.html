@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Urdu Class 2 Game</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.70.0/dist/phaser.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+
+        canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+
+        #urdu-title {
+            position: absolute;
+            top: 80px;
+            width: 100%;
+            text-align: center;
+            font-family: 'Noto Nastaliq Urdu';
+            font-size: 60px;
+            z-index: 10;
+        }
+
+        #urdu-question {
+            position: absolute;
+            top: 140px;
+            width: 100%;
+            text-align: center;
+            font-family: 'Noto Nastaliq Urdu';
+            font-size: 42px;
+            display: none;
+            z-index: 10;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="urdu-title"></div>
+    <div id="urdu-question"></div>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
