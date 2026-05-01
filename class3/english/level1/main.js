@@ -63,7 +63,7 @@ class StartScene extends Phaser.Scene {
         this.load.audio("wrong", "../assets/wrong.mp3");
 
         nouns.forEach(n => {
-            this.load.image(n.name, `../assets/${n.name}.jpeg`);
+            this.load.image(n.name, `../assets/${n.name}.png`);
         });
     }
 
